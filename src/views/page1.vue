@@ -1,8 +1,8 @@
 <template>
-    <div class="page1" id="page1">
+    <div class="page1 container" id="page1">
         <h1>This is Page1</h1>
-        <div class="card-deck">
-            <div v-for="(item, key) in profileItems" v-bind:key="key">
+        <div class="card-deck row">
+            <div v-for="(item, key) in profileItems" v-bind:key="key" class="col-xs-12 col-md-4">
                 <profile-item v-bind="item" />
             </div>
         </div>
