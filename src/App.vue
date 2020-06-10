@@ -1,24 +1,24 @@
 <template>
   <div id="app">
     <navbar />
-    <page1 />
-    <page2 />
-    <page3 />
+    <profile />
+    <skill />
+    <works />
   </div>
 </template>
 
 <script>
 import navbar from './components/Navbar.vue'
-import page1 from './views/page1.vue'
-import page2 from './views/page2.vue'
-import page3 from './views/page3.vue'
+import profile from './views/profile.vue'
+import skill from './views/skill.vue'
+import works from './views/works.vue'
 
 export default {
   name: 'App',
   components: {
-    page1,
-    page2,
-    page3,
+    profile,
+    skill,
+    works,
     navbar
   }
 }
@@ -34,15 +34,15 @@ export default {
   margin-top: 40px;
 }
 
-#page1 {
+#profile {
   padding-top: 40px;
 }
 
-#page2 {
+#skill {
   padding-top: 40px;
 }
 
-#page3 {
+#works {
   padding-top: 40px;
 }
 </style>

@@ -3,9 +3,9 @@
         <nav class="navbar navbar-expand  navbar-dark bg-dark fixed-top">
             <div class="collapse navbar-collapse justify-content-center custom-nav" id="navbarSupportedContent">
                 <div class="navbar-nav">
-                    <a v-scroll-to="'#page1'">page1</a>
-                    <a v-scroll-to="'#page2'">page2</a>
-                    <a v-scroll-to="'#page3'">page3</a>
+                    <a v-scroll-to="'#profile'">PROFILE</a>
+                    <a v-scroll-to="'#skill'">SKILL</a>
+                    <a v-scroll-to="'#works'">WORKS</a>
                 </div>
             </div>
         </nav>

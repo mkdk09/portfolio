@@ -1,11 +1,11 @@
 <template>
-    <div class="page2" id="page2">
-        <h1>This is Page2</h1>
+    <div class="skill container" id="skill">
+        <h1>SKILL</h1>
     </div>
 </template>
 
 <style scoped>
-.page2 {
+.skill {
     height: 1000px;
     background-color: lightgreen;
 }

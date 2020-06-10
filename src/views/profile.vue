@@ -1,6 +1,6 @@
 <template>
-    <div class="page1 container" id="page1">
-        <h1>This is Page1</h1>
+    <div class="profile container" id="profile">
+        <h1>PROFILE</h1>
         <div class="card-deck row">
             <div v-for="(item, key) in profileItems" v-bind:key="key" class="col-xs-12 col-md-4">
                 <profile-item v-bind="item" />
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-.page1 {
+.profile {
     height: 1000px;
     background-color: aqua;
 }
