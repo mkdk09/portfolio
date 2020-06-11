@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <navbar />
+    <top />
     <profile />
     <skill />
     <works />
@@ -9,6 +10,7 @@
 
 <script>
 import navbar from './components/Navbar.vue'
+import top from './views/top.vue'
 import profile from './views/profile.vue'
 import skill from './views/skill.vue'
 import works from './views/works.vue'
@@ -17,6 +19,7 @@ export default {
   name: 'App',
   components: {
     profile,
+    top,
     skill,
     works,
     navbar
@@ -32,6 +35,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 40px;
+}
+
+#top {
+  padding-top: 40px;
 }
 
 #profile {
