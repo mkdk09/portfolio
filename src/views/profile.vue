@@ -18,8 +18,8 @@ export default {
     data() {
       return {
         profileItems: [
-          { title: 'title1', description: 'description1', comment: 'comment1' },
-          { title: 'title2', description: 'description2', comment: 'comment2' },
+          { title: 'Name', description: 'mkdk09', comment: 'comment1' },
+          { title: 'University', description: '近畿大学大学院 M1', comment: 'comment2' },
           { title: 'title3', description: 'description3', comment: 'comment3' },
           { title: 'title4', description: 'description4', comment: 'comment4' },
           { title: 'title5', description: 'description5', comment: 'comment5' },
