@@ -5,7 +5,12 @@
                 {{ title }}
             </div>
             <div class="profile-body card-body p-2">
-                {{ description }}
+                <div v-if="this.link.length === 0">
+                    {{ description }}
+                </div>
+                <div v-else>
+                    <a :href="this.link">{{ description }}</a>
+                </div>
             </div>
         </div>
 
@@ -26,6 +31,7 @@ export default {
     props: {
         title: String,
         description: String,
+        link: String,
         comment: String
     },
     data() {
