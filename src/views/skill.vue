@@ -18,12 +18,12 @@ export default {
     data() {
       return {
         profileItems: [
-          { title: 'title1', description: 'description1', comment: 'comment1' },
-          { title: 'title2', description: 'description2', comment: 'comment2' },
-          { title: 'title3', description: 'description3', comment: 'comment3' },
-          { title: 'title4', description: 'description4', comment: 'comment4' },
-          { title: 'title5', description: 'description5', comment: 'comment5' },
-          { title: 'title6', description: 'description6', comment: 'comment6' }
+          { title: 'title1', description: 'description1', link: '', comment: 'comment1' },
+          { title: 'title2', description: 'description2', link: '', comment: 'comment2' },
+          { title: 'title3', description: 'description3', link: '', comment: 'comment3' },
+          { title: 'title4', description: 'description4', link: '', comment: 'comment4' },
+          { title: 'title5', description: 'description5', link: '', comment: 'comment5' },
+          { title: 'title6', description: 'description6', link: '', comment: 'comment6' }
         ]
       }
     }
